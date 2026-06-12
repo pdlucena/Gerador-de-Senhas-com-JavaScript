@@ -106,7 +106,6 @@ function copy() {
 | Checkbox Maiúsculas | `click` | Regenera a senha com o novo pool |
 | Checkbox Números | `click` | Regenera a senha com o novo pool |
 | Checkbox Símbolos | `click` | Regenera a senha com o novo pool |
-| Botão ícone copiar | `click` | Copia a senha para a área de transferência |
 | Botão "Copiar Senha" | `click` | Copia a senha para a área de transferência |
 | Botão renovar | `click` | Gera uma nova senha com as configurações atuais |
 
@@ -114,6 +113,6 @@ function copy() {
 
 ### Inicialização
 
-Ao carregar a página, `generatePassword()` é chamada automaticamente, garantindo que o usuário já visualize uma senha gerada ao acessar a aplicação — sem precisar interagir primeiro.
+Ao carregar a página, `generatePassword()` é chamada automaticamente, garantindo que o usuário já visualize uma senha gerada ao acessar a aplicação, sem precisar interagir primeiro.
 
 ---
