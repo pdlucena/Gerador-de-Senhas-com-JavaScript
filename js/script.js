@@ -122,10 +122,7 @@ function calculateFontSize(){
 
 // Esta função copia a senha para a área de transferência do usuário
 function copy() {
-    navigator.clipboard.writeText(inputEl.value).then(() => {
-        copyBtn.textContent = "Copiado!";
-        setTimeout(() => copyBtn.textContent = "Copiar Senha", 2000);
-    });
+    navigator.clipboard.writeText(inputEl.value);
 }
 
 // Capturamos o slider de tamanho de senha
